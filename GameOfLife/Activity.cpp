@@ -16,7 +16,7 @@ int main() {
 	//GameOfLife::random_mode(map);
 	//GameOfLife::edit_mode(map);
 
-	GameOfLife::run(-1, 0, map);
+	GameOfLife::run(-1, 100, map);
 
 	closegraph();
 	return 0;
